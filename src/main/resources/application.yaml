@@ -1,0 +1,9 @@
+spring:
+  redis:
+    timeout: 3000
+    cluster:
+      hosts: ${REDIS_HOSTS}
+
+teste:
+  service:
+    name: teste-reg
